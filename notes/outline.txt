@@ -1,0 +1,21 @@
+komponensek
+	- io ami a hálónak adja a képeket
+	- háló paraméterezhető
+		- FC layerek
+		- konvolúciós layerek
+		- k-fold validation
+	- kimeneti fájl összeállítás
+	- visszaellenőrzés kimenet alapján
+		- loss function
+	
+kimeneti formátum
+	class;TestImage
+	19;Test0001.png
+	19;Test0002.png
+	45;Test0003.png
+	. . .
+
+training data
+	001-010: számok 0-9ig
+	011-036: nagy betűk
+	037-062: kis betűk
